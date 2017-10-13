@@ -1,0 +1,19 @@
+{
+  "name": "proofofwork",
+  "version": "1.0.0",
+  "description": "Proof of Work algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack index.js test.js && node test.js"
+  },
+  "keywords": [
+    "blockchain",
+    "pow",
+    "algorithm"
+  ],
+  "author": "efichot",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
